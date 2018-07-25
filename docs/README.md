@@ -1,4 +1,8 @@
-# Dude Solutions Engineering
+---
+sidebar: false
+home: true
+---
+
 
 # About Our Team ...
 Trust, humility, and respect
@@ -11,7 +15,7 @@ Be a positive influence
 
 # JoinTheDude
 We're always on the lookout for great people to work with. We'd love to meet you!
-[View Current Openings](https://www.dudesolutions.com/about-us/careers)
+<a href="https://www.dudesolutions.com/about-us/careers" class="button">View Current Openings!</a>
 
 <DudeTweets/>
 
