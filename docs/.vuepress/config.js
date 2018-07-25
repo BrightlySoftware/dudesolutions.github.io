@@ -9,7 +9,7 @@ module.exports = {
           ] 
         },
         { text: 'Open Source', link: '/OpenSource' },
-        { text: 'External', link: 'https://google.com' },
+        { text: 'Blog', link: 'http://blog.dudesolutions.io/' },
       ]
     }
   }
