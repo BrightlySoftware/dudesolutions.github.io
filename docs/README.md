@@ -3,7 +3,6 @@ sidebar: false
 home: true
 ---
 
-
 # About Our Team ...
 Trust, humility, and respect
 
