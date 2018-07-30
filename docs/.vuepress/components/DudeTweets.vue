@@ -1,5 +1,5 @@
 <template>
- <div>
+  <div class="twitter border-1 border-dude-blue rounded">
     <a id="feed" class="twitter-timeline" href="https://twitter.com/hashtag/JoinTheDude" data-widget-id="666335403570393090">#JoinTheDude Tweets</a>
   </div>
 </template>
@@ -21,4 +21,9 @@ export default {
 };
 </script>
 <style>
+.twitter {
+  margin: 40px auto;
+  width: 350px;
+  max-width: 100%;
+}
 </style>

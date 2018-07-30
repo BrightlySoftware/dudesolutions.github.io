@@ -30,4 +30,4 @@ USA
 [linkedin](https://www.linkedin.com/company/dude-solutions)
 [facebook](https://www.facebook.com/dudesolutions/)
 
-Copyright 2018 Dude Solutions, Inc.
+&copy;2018 Dude Solutions, Inc.

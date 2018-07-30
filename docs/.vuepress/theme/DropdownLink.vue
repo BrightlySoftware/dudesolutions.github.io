@@ -65,7 +65,7 @@ export default {
       margin-left 0.4rem
   .nav-dropdown
     .dropdown-item
-      color inherit
+      color $primaryColor
       line-height 1.7rem
       h4
         margin 0.45rem 0 0
