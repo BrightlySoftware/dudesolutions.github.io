@@ -12,7 +12,8 @@ module.exports = {
         { text: 'Open Source', 
           items: [
             { text: 'Projects', link: '/OpenSource/Projects'},
-            { text: 'Code of Conduct', link: '/OpenSource/CodeOfConduct'}
+            { text: 'Code of Conduct', link: '/OpenSource/CodeOfConduct'},
+            { text: 'Dude Solutions Github', link: 'https://github.com/DudeSolutions'}
           ]
         },
         { text: 'Blog', link: 'http://blog.dudesolutions.io/' },
