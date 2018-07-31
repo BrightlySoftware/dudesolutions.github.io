@@ -9,7 +9,12 @@ module.exports = {
             { text: 'FrontEnd', link: '/FrontEnd/index' }
           ] 
         },
-        { text: 'Open Source', link: '/OpenSource' },
+        { text: 'Open Source', 
+          items: [
+            { text: 'Projects', link: '/OpenSource/Projects'},
+            { text: 'Code of Conduct', link: '/OpenSource/CodeOfConduct'}
+          ]
+        },
         { text: 'Blog', link: 'http://blog.dudesolutions.io/' },
       ],
       sidebar: {
