@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown-wrapper" :class="{ open }">
     <a class="dropdown-title" @click="toggle">
-      <span class="title">{{ item.text }}</span>
+      <span>{{ item.text }}</span>
       <span class="arrow" :class="open ? 'down' : 'right'"></span>
     </a>
     <DropdownTransition>
@@ -61,7 +61,7 @@ export default {
       border-color transparent
     .arrow
       vertical-align middle
-      margin-top -1px
+      margin-top 7px
       margin-left 0.4rem
   .nav-dropdown
     .dropdown-item

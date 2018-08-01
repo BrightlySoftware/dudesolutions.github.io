@@ -3,17 +3,14 @@
     <div class="hero">
       <img v-if="data.heroImage" :src="$withBase(data.heroImage)" alt="hero">
       <h1>{{ data.heroText || $title || 'Hello' }}</h1>
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
       <p class="action" v-if="data.actionText && data.actionLink">
         <NavLink class="action-button" :item="actionLink"/>
       </p>
     </div>
     <div class="features" v-if="data.features && data.features.length">
       <div class="feature" v-for="feature in data.features">
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <v-icon>{{ feature.icon }}</v-icon>
+        <h3>{{ feature.title }}</h3>
       </div>
     </div>
     <Content custom/>
@@ -77,18 +74,29 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
-    padding 1.2rem 0
+    border-top 1px solid $lightGray
+    border-bottom 1px solid $lightGray
+    padding 4rem 0 2.5rem 0
     margin-top 2.5rem
+    margin-bottom 2.5rem
     display flex
-    flex-wrap wrap
+    flex-wrap nowrap
     align-items flex-start
     align-content stretch
     justify-content space-between
+    text-align center
+    align-items center
+    position relative
   .feature
     flex-grow 1
     flex-basis 30%
     max-width 30%
+    i
+      position absolute
+      top 1.4rem
+      width 2.5rem
+      font-size 2.5rem
+      margin-left -1.25rem
     h2
       font-size 1.4rem
       font-weight 500

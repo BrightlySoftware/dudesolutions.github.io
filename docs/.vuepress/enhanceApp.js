@@ -1,4 +1,7 @@
 import '../../node_modules/@dudesolutions/dudewind/dist/styles.css'
+import 'vuetify/dist/vuetify.min.css';
+import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import Vuetify from 'vuetify';
 
 export default ({
     Vue, // the version of Vue being used in the VuePress app
@@ -6,5 +9,6 @@ export default ({
     router, // the router instance for the app
     siteData // site metadata
   }) => {
+    Vue.use(Vuetify);
     // ...apply enhancements to the app
   }

@@ -56,6 +56,14 @@ body
   border-right 1px solid $borderColor
   overflow-y auto
 
+.footer
+  position fixed
+  bottom 0
+  width 100vw
+  left 0
+  padding 20px
+  margin 100px 0 0 0
+
 .content:not(.custom)
   @extend $wrapper
   > *:first-child
@@ -71,7 +79,7 @@ body
 
 .content.custom
   padding 0
-  margin 0
+  margin 0 0 200px 0
   img
     max-width 100%
 
