@@ -17,6 +17,7 @@
       <slot name="page-top" slot="top"/>
       <slot name="page-bottom" slot="bottom"/>
     </Page>
+    <TheFooter/>
   </div>
 </template>
 
@@ -27,10 +28,11 @@ import Home from './Home.vue'
 import Navbar from './Navbar.vue'
 import Page from './Page.vue'
 import Sidebar from './Sidebar.vue'
+import TheFooter from './TheFooter.vue'
 import { resolveSidebarItems } from './util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Home, Page, Sidebar, Navbar, TheFooter },
   data () {
     return {
       isSidebarOpen: false
