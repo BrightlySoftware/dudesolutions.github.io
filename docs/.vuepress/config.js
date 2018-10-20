@@ -5,8 +5,8 @@ module.exports = {
         { 
           text: 'Development', 
           items: [
-            { text: 'BackEnd', link: '/BackEnd/index'},
-            { text: 'FrontEnd', link: '/FrontEnd/index' }
+            { text: 'Back End', link: '/BackEnd/index'},
+            { text: 'Front End', link: '/FrontEnd/index' }
           ] 
         },
         { text: 'Open Source', 
