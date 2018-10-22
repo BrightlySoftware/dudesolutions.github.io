@@ -30,5 +30,13 @@ module.exports = {
       },
       search: false,
     },
-    title: 'Dude Solutions Engineering'
+    title: 'Dude Solutions Engineering',
+    module: {
+      rules: [{
+        test: /\.css$/,
+        use: [
+            "css-loader",
+        ]
+      }]
+    }
   }

@@ -1,5 +1,5 @@
 import '../../node_modules/@dudesolutions/dudewind/dist/styles.css'
-import 'vuetify/dist/vuetify.min.css';
+// import 'vuetify/dist/vuetify.min.css';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import Vuetify from 'vuetify';
 import { library } from '@fortawesome/fontawesome-svg-core'
