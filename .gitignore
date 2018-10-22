@@ -1,2 +1,11 @@
-node_modules/
+# see http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/docs/.vuepress/dist
+
+# dependencies
+/node_modules
+
+# system files
 package-lock.json
+yarn.lock
