@@ -11,5 +11,5 @@ sidebarDepth: 9
     * [Vue Documentation](https://vuejs.org/v2/style-guide/)
     * [ES2015+ Style Guide](/FrontEnd/StyleGuides/ES2015.md)
     * [ES5 StyleGuide](/FrontEnd/StyleGuides/ES5.md)
-    * [CSS/SASS](/FrontEnd/StyleGuides/CSS)
+    * [CSS/SASS](/FrontEnd/StyleGuides/CSS.md)
 
