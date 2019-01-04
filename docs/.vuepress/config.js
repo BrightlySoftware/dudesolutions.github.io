@@ -19,13 +19,11 @@ module.exports = {
         { text: 'Blog', link: 'http://blog.dudesolutions.io/' },
       ],
       sidebar: {
-        '/FrontEnd/StyleGuides/' : [
-          'ES2015',
-          'ES5',
-          'CSS'
-        ],
         '/FrontEnd/': [
-          ''
+          '/FrontEnd/',
+          'StyleGuides/ES2015',
+          'StyleGuides/ES5',
+          'StyleGuides/CSS'
         ]
       },
       search: false,
